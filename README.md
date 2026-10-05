@@ -8,8 +8,8 @@ Target: Windows + GPU NVIDIA (dirancang untuk RTX 3050 4GB).
 ## Pasang (sekali)
 Syarat sistem: Windows, driver NVIDIA, **git**. Itu saja (Python, conda, ffmpeg, CUDA diunduh otomatis ke folder ini).
 
-    git clone <url-repo-ini>
-    cd voice-face-swap
+    git clone git@github.com:susantohenri/audio-video-swapper.git
+    cd audio-video-swapper
     powershell -ExecutionPolicy Bypass -File .\install.ps1
 
 Butuh beberapa GB download dan beberapa menit.
